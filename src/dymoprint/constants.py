@@ -26,14 +26,14 @@ except ImportError as error:
 
 
 DESCRIPTION = (
-    "Linux Software to print with LabelManager PnP from Dymo\nwritten in Python"
+    "Linux Software to print with LabelManager 280 from Dymo\nwritten in Python"
 )
 DEV_CLASS = 3
 DEV_VENDOR = 0x0922
-DEV_PRODUCT = 0x1002
+DEV_PRODUCT = 0x1005
 # DEV_PRODUCT     = 0x1001
 DEV_NODE = None
-DEV_NAME = "Dymo LabelManager PnP"
+DEV_NAME = "Dymo LabelManager 280"
 
 FONT_SIZERATIO = 7 / 8
 
